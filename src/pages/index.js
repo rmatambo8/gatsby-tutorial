@@ -1,11 +1,12 @@
 import * as React from "react";
-
+import Layout from "../components/Layout";
 const Homepage = () => {
   return (
-    <div>
-      <h1>Hello world</h1>
-      <p>ahhhh</p>
-    </div>
+    <Layout pageTitle="Home Page">
+      <div>
+        <p>I'm making this by following the Gatsby Tutorial.</p>
+      </div>
+    </Layout>
   );
 };
 
